@@ -618,7 +618,6 @@ function actualizarMalla() {
   });
 }
 
-crearMalla();
 document.getElementById("semestreSelect").addEventListener("change", function () {
   const selected = this.value;
   document.querySelectorAll(".ramo").forEach((el) => {
@@ -629,3 +628,5 @@ document.getElementById("semestreSelect").addEventListener("change", function ()
     }
   });
 });
+
+crearMalla();
