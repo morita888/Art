@@ -53,3 +53,16 @@ h1 {
   font-size: 1rem;
   color: #005f99;
 }
+.filtro {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.filtro select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #007acc;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
