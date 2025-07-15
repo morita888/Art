@@ -619,3 +619,13 @@ function actualizarMalla() {
 }
 
 crearMalla();
+document.getElementById("semestreSelect").addEventListener("change", function () {
+  const selected = this.value;
+  document.querySelectorAll(".ramo").forEach((el) => {
+    if (selected === "todos" || el.dataset.semestre === selected) {
+      el.style.display = "block";
+    } else {
+      el.style.display = "none";
+    }
+  });
+});
